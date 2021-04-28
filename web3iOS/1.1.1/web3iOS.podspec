@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'web3iOS'
-  spec.version      = '1.1.1'
+  spec.version      = '1.1.2'
   spec.summary      = 'web3 API'
 
   spec.description  = <<-DESC
@@ -36,10 +36,9 @@ web3 API and BIP44 KeyStore
   spec.public_header_files = 'web3Swift-Ethereum/web3Swift-Ethereum.h'
 
   spec.dependency 'BigInt', '~> 3.1'
-  spec.dependency 'EthereumAddress', '~> 1.0.0'
-  spec.dependency 'scrypt', '~> 2.0'
+  spec.dependency 'EthereumAddress', '~> 1.3.0'
+  spec.dependency 'CryptoSwift', '~> 1.0'
   spec.dependency 'secp256k1_swift', '~> 1.0.3'
   spec.dependency 'SwiftRLP', '~> 1.1'
-  spec.dependency 'EthereumAddress', '~> 1.0.0'
 
 end

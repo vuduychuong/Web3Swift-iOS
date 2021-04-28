@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		012C6817516BF388309A5B29 /* Pods_web3Swift_Ethereum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA2A728453180DAE8006B5 /* Pods_web3Swift_Ethereum.framework */; };
+		34EAA7EE2639768E00571432 /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAA7ED2639768E00571432 /* Scrypt.swift */; };
+		34EAA7F0263976BE00571432 /* PointerArithmeticsImplimentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EAA7EF263976BD00571432 /* PointerArithmeticsImplimentation.swift */; };
 		E32CCEC322686CF800B3A455 /* web3Swift-Ethereum.h in Headers */ = {isa = PBXBuildFile; fileRef = E32CCEC122686CF800B3A455 /* web3Swift-Ethereum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E32CCF422268743500B3A455 /* keccak-tiny.h in Headers */ = {isa = PBXBuildFile; fileRef = E32CCED12268743500B3A455 /* keccak-tiny.h */; };
 		E32CCF442268743500B3A455 /* keccak-tiny.c in Sources */ = {isa = PBXBuildFile; fileRef = E32CCED42268743500B3A455 /* keccak-tiny.c */; };
@@ -84,6 +86,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34EAA7ED2639768E00571432 /* Scrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
+		34EAA7EF263976BD00571432 /* PointerArithmeticsImplimentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerArithmeticsImplimentation.swift; sourceTree = "<group>"; };
 		690EE0E29D21B4D63F2F0724 /* Pods-web3Swift-Ethereum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web3Swift-Ethereum.debug.xcconfig"; path = "Target Support Files/Pods-web3Swift-Ethereum/Pods-web3Swift-Ethereum.debug.xcconfig"; sourceTree = "<group>"; };
 		C54CD923D2D45F1D91678ACF /* Pods-web3Swift-Ethereum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-web3Swift-Ethereum.release.xcconfig"; path = "Target Support Files/Pods-web3Swift-Ethereum/Pods-web3Swift-Ethereum.release.xcconfig"; sourceTree = "<group>"; };
 		DCFA2A728453180DAE8006B5 /* Pods_web3Swift_Ethereum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_web3Swift_Ethereum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +182,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34EAA7EC2639767400571432 /* Scrypt */ = {
+			isa = PBXGroup;
+			children = (
+				34EAA7ED2639768E00571432 /* Scrypt.swift */,
+				34EAA7EF263976BD00571432 /* PointerArithmeticsImplimentation.swift */,
+			);
+			path = Scrypt;
+			sourceTree = "<group>";
+		};
 		95068532095D3A1692DB6BC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +259,7 @@
 		E32CCEFC2268743500B3A455 /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				34EAA7EC2639767400571432 /* Scrypt */,
 				E33304B922698E2B003D215A /* Convenience */,
 				E32CCF262268743500B3A455 /* KeystoreManager */,
 				E32CCEFD2268743500B3A455 /* ENS */,
@@ -572,6 +586,7 @@
 				E32CCF692268743500B3A455 /* ABIRawType.swift in Sources */,
 				E32CCF762268743600B3A455 /* ABIRawType+Static.swift in Sources */,
 				E32CCF812268743600B3A455 /* KeyDerivation.swift in Sources */,
+				34EAA7EE2639768E00571432 /* Scrypt.swift in Sources */,
 				E3E57A952282F186004E581B /* MHelper.swift in Sources */,
 				E32CCF822268743600B3A455 /* HexExtensions.swift in Sources */,
 				E32CCF7F2268743600B3A455 /* KeyUtil.swift in Sources */,
@@ -588,6 +603,7 @@
 				E32CCF902268743600B3A455 /* AbstractKeystore.swift in Sources */,
 				E32CCF702268743500B3A455 /* ABIJSONEntry.swift in Sources */,
 				E32CCF6D2268743500B3A455 /* ABIDecoder+JSON.swift in Sources */,
+				34EAA7F0263976BE00571432 /* PointerArithmeticsImplimentation.swift in Sources */,
 				E33304CA22698E2B003D215A /* Dictionary+Extension.swift in Sources */,
 				E3B73786226EA4F900A0C1B4 /* ABIFunction.swift in Sources */,
 				E32CCF742268743600B3A455 /* ABIFunctionEncoder.swift in Sources */,
